@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
 
 
@@ -98,7 +99,7 @@ nav button:hover{
     color: #4a503d;
     font-family: 'Dosis', sans-serif;
     font-size: 5rem;
-    font-weight: 450;
+    font-weight: 350;
     text-transform: capitalize;
     text-align: center;
     
@@ -114,7 +115,7 @@ nav button:hover{
 footer .nums{
     position: absolute;
     bottom: 20px;
-    color: #1eae98;
+    color: #e5b299;
     font-size: 3rem;
     font-weight: lighter;
     padding: 20px;
@@ -130,14 +131,13 @@ footer .social ul{
     display: flex;
     bottom: 22px;
     right: 0;
-    color: #1eae98;
 }
 
 footer .social ul a{
     list-style: none;
     padding: 20px;
     font-size: 1.1rem; 
-    color: #9ae2e2;
+    color: #e5b299;
 }
 
 footer .social ul a:hover{
@@ -182,20 +182,11 @@ footer .social ul a:hover{
     top: 50%;
     left: 50%;
     color: #fff;
-    font-size: 1.8rem;
-    font-weight: 300;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    font-weight: 500;
     text-transform: capitalize;
     transform: translate(-50%, -50%);
-}
-
-
-.container p{
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 50px;
-    text-align: center;
-    word-spacing: 2px;
-    color: #fff;
 }
 
 

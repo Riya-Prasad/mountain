@@ -38,6 +38,7 @@ t12.from('.block', {
     duration: 1,
     ease: "Expo.easeInOut"
 })
+
 .from('.block .img', {
     y: 100,
     stagger: .1, 
@@ -45,15 +46,6 @@ t12.from('.block', {
     duration: 1,
     ease: "Expo.easeInOut"
 })
-
-.from('.container p', {
-    y: 10,
-    opacity: 0,
-    duration: 1,
-    ease: "Expo.easeInOut"
-})
-
-
 
 
 
